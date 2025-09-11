@@ -7,7 +7,7 @@ class Program
         // 1. Generate a random number from 1 to 100.
 
         Random randomGenerator = new Random();
-        
+
         int magicNumber = randomGenerator.Next(1, 101);
 
         int guess = 0;
@@ -17,7 +17,7 @@ class Program
         {
             // Ask the user for their guess.
             Console.Write(" Hi there! What is your guess? ");
-            
+
             // Read the user's input from the console and convert it to an integer.
             string guessInput = Console.ReadLine();
             guess = int.Parse(guessInput);
